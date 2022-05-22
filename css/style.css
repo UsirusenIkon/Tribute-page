@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 
-button{
+a{
     border: none;
     padding: .5em;
     color: white;
@@ -19,8 +19,9 @@ button{
     width: 120px;
     height: 40px;
     border-radius: 30px;
+    text-decoration: none;
 }
-button:hover{
+a:hover{
     transform: scale(.95);
     background-color: rgb(25, 114, 141);
 }
@@ -73,7 +74,7 @@ button:hover{
     height: 250px;
     border-radius: 50%;
 }
-.icon button{
+.icon a{
     align-self: flex-start;
 }
 
