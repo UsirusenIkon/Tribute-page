@@ -69,7 +69,7 @@ button:hover{
     row-gap: 1rem;
 }
 .icon img{
-    width: 250px;
+    max-width: 250px;
     height: 250px;
     border-radius: 50%;
 }
